@@ -41,21 +41,7 @@ class TransactionController extends Controller
     }
 
     public function download() {
-        // $users = Users::all();
-        // $department = Department::all();
-        // $transaction = Transaction::all();
-
-        // return view('pages.admin.download', compact(
-        //     'users',
-        //     'department',
-        //     'transaction'
-        // ));
-
         return view('pages.admin.download');
-
-        // $pdf = Pdf::loadView('pages.admin.download');
-
-        // return $pdf->stream('homepage.pdf');
     }
 
 }

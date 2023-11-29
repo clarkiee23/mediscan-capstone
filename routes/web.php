@@ -107,5 +107,6 @@ Route::get('/test', function (){
 Route::get('/download', [TransactionController::class, 'download'])->name('download');
 
 // to push
+// git add .
 // git commit -m "comment"
 // git push origin main
