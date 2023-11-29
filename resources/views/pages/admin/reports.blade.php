@@ -11,7 +11,7 @@
         grid-template-columns: auto auto;
     }
     .grid-item {
-        text-align: center;
+        /* text-align: center; */
         padding: 20px;
     }
 </style>
@@ -20,14 +20,13 @@
 
 <!-- HEADING -->
 <div class="main-container">
-    <div class="row mb-1" id="hlthdash-header">
-        <div class="col-md-11" style="margin: auto; padding: 0px;">
-            <div class="col-md-5 mt-5">
-                <h5>Census Reports</h5>
-            </div>
-            <div class="col-md-6"></div>  
-            <hr>
+    <div class="grid-container">
+        <div class="grid-item">
+            <h1>Census Reports</h1>
         </div>
+        <div class="grid-item" style="text-align: right">
+            <button type="button" class="btn btn-primary" onclick="openSarj()">Print</button>
+        </div>  
     </div>
 </div>
 
